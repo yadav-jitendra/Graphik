@@ -7,9 +7,10 @@ public class Fenster extends Frame {
 
     Fenster(String name) {
         super(name);
+        add(new Rectangle());
         setBackground(Color.yellow);
         setSize(200, 150);
-        setLocation(500, 500);
+        setLocation(200, 200);
         setVisible(true);
     }
 
