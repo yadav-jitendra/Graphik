@@ -2,7 +2,7 @@ package grundlagen;
 
 import java.awt.*;
 
-public class Rectangle extends Canvas {
+public class Rechteck extends Canvas {
 
     public void paint(Graphics g){
         g.setColor(Color.red);
