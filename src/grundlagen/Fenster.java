@@ -10,8 +10,8 @@ public class Fenster extends Frame {
         add(new Rechteck());
 
         setBackground(Color.yellow.darker());
-        setSize(200, 150);
-        setLocation(200, 200);
+        setSize(700, 550);
+        setLocation(200, 20);
 
         addWindowListener(new WindowClosingAdapter());
 

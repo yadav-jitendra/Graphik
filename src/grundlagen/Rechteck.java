@@ -10,6 +10,7 @@ public class Rechteck extends Canvas {
 
         g.setColor(Color.BLACK);           // first set color of the object
         g.drawString("Red Rectangle", 25, 40);  // then create the object
+        g.drawRoundRect(100,200,100,100,10,10);
 
         setLocation(20, 15);        // location of the canvas
     }
